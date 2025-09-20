@@ -84,14 +84,14 @@ function App() {
           <p className="player-count">Players</p>
           <div className="platform-toggle">
             <img
-              src={`src/assets/local_multiplayer.png`}
+              src={`./assets/local_multiplayer.png`}
               className={
                 platform === "Local Multiplayer" ? "activePlayer" : "non-active"
               }
               onClick={() => handleSwitchPlatform("Local Multiplayer")}
             />
             <img
-              src={`src/assets/seperated_devices.png`}
+              src={`./assets/seperated_devices.png`}
               className={
                 platform === "Seperate Devices" ? "activePlayer" : "non-active"
               }
@@ -102,7 +102,7 @@ function App() {
         <div className="game-container">
           {filteredGames.map((game) => (
             <img
-              src={`src/assets/${game.coverUrl}`}
+              src={`./assets/${game.coverUrl}`}
               key={game.id}
               alt={game.name}
             />
