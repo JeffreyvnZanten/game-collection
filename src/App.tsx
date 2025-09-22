@@ -102,9 +102,10 @@ function App() {
         <div className="game-container">
           {filteredGames.map((game) => (
             <img
-              src={`./assets/${game.coverUrl}`}
+              src={`./assets/idgb full cover/${game.coverUrl}.jpg`}
               key={game.id}
               alt={game.name}
+              className="game-avatar"
             />
           ))}
         </div>

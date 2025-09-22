@@ -1,3 +1,9 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 header {
   background-color: rgb(10, 10, 10);
 }
@@ -15,8 +21,9 @@ header {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  padding: 1em 0.4em;
-  align-items: center;
+  padding: 1em;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .player-count {
@@ -24,15 +31,20 @@ header {
 }
 
 .game-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  width: 100%;
   gap: 10px;
+  grid-template-columns: repeat(auto-fit, 8em);
   justify-content: center;
   padding-bottom: 4vh;
 }
 
 .game-container img {
   width: 8em;
+  height: 8em;
+  object-fit: cover;
+  object-position: 0px 80%;
+  cursor: pointer;
 }
 
 menu {
@@ -45,15 +57,30 @@ menu {
 menu li {
   padding: 0.4em;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 .platform-toggle {
   display: flex;
   justify-content: end;
   width: 100%;
+  cursor: pointer;
 }
 
 .non-active {
   color: rgba(0, 0, 0, 0.2);
   opacity: 0.35;
+}
+
+@media screen and (min-width: 1024px) {
+  .game-container {
+    width: 600px;
+    /* border: 1px solid red; */
+  }
+
+  .filters {
+    width: 600px;
+    padding: 1em 2em;
+    /* border: 1px solid red; */
+  }
 }

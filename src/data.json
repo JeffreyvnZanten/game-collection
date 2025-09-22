@@ -4,202 +4,211 @@
     "name": "Super Smash Bros Ultimate",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "smash_bros_ultimate.png"
+    "coverUrl": "smash_bros_ultimate",
+    "img_offset": "top"
   },
   {
     "id": 2,
     "name": "Brawlhalla",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "brawlhalla.png"
+    "coverUrl": "brawlhalla",
+    "img_offset": "bottom"
   },
   {
     "id": 3,
     "name": "Brothers",
     "playerCount": [1, 2],
     "platform": "Local Multiplayer",
-    "coverUrl": "brothers.png"
+    "coverUrl": "brothers",
+    "img_offset": "bottom"
   },
   {
     "id": 4,
     "name": "Children of Morta",
     "playerCount": [1, 2],
     "platform": "Local Multiplayer",
-    "coverUrl": "children_of_morta.png"
+    "coverUrl": "children_of_morta",
+    "img_offset": "bottom"
   },
   {
     "id": 5,
     "name": "Cult of the Lamb",
     "playerCount": [1, 2],
     "platform": "Local Multiplayer",
-    "coverUrl": "cult_of_the_lamb.png"
+    "coverUrl": "cult_of_the_lamb",
+    "img_offset": "normal"
   },
   {
     "id": 6,
     "name": "Diablo 3",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "diablo_3.png"
+    "coverUrl": "diablo_3",
+    "img_offset": "top"
   },
   {
     "id": 7,
     "name": "Ember Knights",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "ember_knights.png"
+    "coverUrl": "ember_knights",
+    "img_offset": "bottom"
   },
   {
     "id": 8,
     "name": "Enter the Gungeon",
     "playerCount": [1, 2],
     "platform": "Local Multiplayer",
-    "coverUrl": "enter_the_gungeon.png"
+    "coverUrl": "enter_the_gungeon",
+    "img_offset": "top"
   },
   {
     "id": 9,
     "name": "Fortnite",
     "playerCount": [1, 2, 3, 4],
     "platform": "Seperate Devices",
-    "coverUrl": "fortnite.png"
+    "coverUrl": "fortnite",
+    "img_offset": "top"
   },
   {
     "id": 10,
     "name": "It Takes Two",
     "playerCount": [1, 2],
     "platform": "Local Multiplayer",
-    "coverUrl": "it_takes_two.png"
+    "coverUrl": "it_takes_two"
   },
   {
     "id": 11,
     "name": "Lost Castle",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "lost_castle.png"
+    "coverUrl": "lost_castle"
   },
   {
     "id": 12,
     "name": "Mario Kart Deluxe 8",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "mario_kart_8.png"
+    "coverUrl": "mario_kart_8"
   },
   {
     "id": 13,
     "name": "Mario Party Jamboree",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "mario_party_jamboree.png"
+    "coverUrl": "mario_party_jamboree"
   },
   {
     "id": 14,
     "name": "Minecraft",
     "playerCount": [1, 2, 3, 4],
     "platform": "Seperate Devices",
-    "coverUrl": "minecraft.png"
+    "coverUrl": "minecraft"
   },
   {
     "id": 15,
     "name": "Minecraft Dungeons",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "minecraft_dungeons.png"
+    "coverUrl": "minecraft_dungeons"
   },
   {
     "id": 16,
     "name": "Multiversus",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "multiversus.png"
+    "coverUrl": "multiversus"
   },
   {
     "id": 17,
     "name": "Pokemon Unite",
     "playerCount": [1, 2, 3, 4],
     "platform": "Seperate Devices",
-    "coverUrl": "pokemon_unite.png"
+    "coverUrl": "pokemon_unite"
   },
   {
     "id": 18,
     "name": "Rocket League",
     "playerCount": [1, 2],
     "platform": "Local Multiplayer",
-    "coverUrl": "rocket_league.png"
+    "coverUrl": "rocket_league"
   },
   {
     "id": 19,
     "name": "Rogue Heroes",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "rogue_heroes.png"
+    "coverUrl": "rogue_heroes"
   },
   {
     "id": 20,
     "name": "Shank 1",
     "playerCount": [1, 2],
     "platform": "Local Multiplayer",
-    "coverUrl": "shank_1.png"
+    "coverUrl": "shank_1"
   },
   {
     "id": 21,
     "name": "Shank 2",
     "playerCount": [1, 2],
     "platform": "Local Multiplayer",
-    "coverUrl": "shank_2.png"
+    "coverUrl": "shank_2"
   },
   {
     "id": 23,
     "name": "Sunderfolk",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "sunderfolk.png"
+    "coverUrl": "sunderfolk"
   },
   {
     "id": 24,
     "name": "The Survivalists",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "the_survivalists.png"
+    "coverUrl": "the_survivalists"
   },
   {
     "id": 25,
     "name": "Trine",
     "playerCount": [1, 2, 3],
     "platform": "Local Multiplayer",
-    "coverUrl": "trine.png"
+    "coverUrl": "trine"
   },
   {
     "id": 26,
     "name": "Worms WMD",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "worms.png"
+    "coverUrl": "worms_wmd"
   },
   {
     "id": 27,
     "name": "Zelda: Four Swords",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "zelda_four_swords.png"
+    "coverUrl": "zelda_four_swords"
   },
   {
     "id": 28,
     "name": "Bravery and Greed",
     "playerCount": [1, 2, 3, 4],
     "platform": "Local Multiplayer",
-    "coverUrl": "bravery_and_greed.png"
+    "coverUrl": "bravery_and_greed"
   },
   {
     "id": 29,
     "name": "Patch Quest",
     "playerCount": [1, 2],
     "platform": "Local Multiplayer",
-    "coverUrl": "patch_quest.png"
+    "coverUrl": "patch_quest"
   },
   {
     "id": 30,
     "name": "Ship of Fools",
     "playerCount": [1, 2],
     "platform": "Local Multiplayer",
-    "coverUrl": "ship_of_fools.png"
+    "coverUrl": "ship_of_fools"
   }
 ]
