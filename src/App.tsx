@@ -1,7 +1,6 @@
 import { useMemo, useState } from "react";
-import "./App.css";
 import gamesData from "./data.json";
-import { MAX_PLAYERS } from "./constants";
+import "./App.css";
 
 type Game = {
   id: number;
