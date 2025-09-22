@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import "./App.css";
 import gamesData from "./data.json";
+import { MAX_PLAYERS } from "./constants";
 
 type Game = {
   id: number;
@@ -56,30 +57,33 @@ function App() {
       <header>
         <h1 className="title">Game Collection</h1>
       </header>
-      <main>
+      <main id="container">
         <div className="filters">
           <menu>
-            <li className={playerCount === 1 ? "activePlayer" : "non-active"}>
+            <button
+              className={playerCount === 1 ? "activePlayer" : "non-active"}
+              onClick={() => handleSwitchPlayerCount(1)}
+            >
               1
-            </li>
-            <li
+            </button>
+            <button
               className={playerCount === 2 ? "activePlayer" : "non-active"}
               onClick={() => handleSwitchPlayerCount(2)}
             >
               2
-            </li>
-            <li
+            </button>
+            <button
               className={playerCount === 3 ? "activePlayer" : "non-active"}
               onClick={() => handleSwitchPlayerCount(3)}
             >
               3
-            </li>
-            <li
+            </button>
+            <button
               className={playerCount === 4 ? "activePlayer" : "non-active"}
               onClick={() => handleSwitchPlayerCount(4)}
             >
               4
-            </li>
+            </button>
           </menu>
           <p className="player-count">Players</p>
           <div className="platform-toggle">
